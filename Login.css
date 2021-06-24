@@ -1,0 +1,105 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+
+    /* background-image: linear-gradient(to bottom right,  rgba(126, 213, 111, 0.8), rgba(40, 180, 133, 0.8)); */
+    background-image: url(back1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+textarea:focus, 
+textarea.form-control:focus,
+select:focus,
+select.form-control:focus,
+input[type=checkbox].form-control:focus, 
+input[type=text]:focus, 
+input[type=password]:focus, 
+input[type=email]:focus, 
+input[type=number]:focus, 
+[type=text].form-control:focus, 
+[type=password].form-control:focus, 
+[type=email].form-control:focus, 
+[type=tel].form-control:focus, 
+[contenteditable].form-control:focus
+{
+  box-shadow: inset 0 -1px 0 #888888;
+}
+
+.loginmain
+{
+    margin-top: 20%;
+    padding: 20px;
+    border-radius: 20px;
+    /* border: 1px solid black; */
+    background-image: linear-gradient(to bottom right,  rgb(25 4 113 / 90%), rgb(224 90 27 / 90%));
+    box-shadow: 5px 5px 10px 5px red;
+}
+
+.loginmain h1{
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: 60px;
+    text-shadow:2px 2px #ff0000;
+}
+
+input{
+    font-weight: bolder;
+    font-size: 18px !important;
+}
+
+@media (max-width: 900px){
+    .loginmain
+    {
+        padding: 0px;
+        padding-top: 20px;
+        margin-top: 270px;
+
+    }
+    .loginmain h1{
+        font-size: 30px;
+
+    }
+}
+
+.container{
+
+    width: 70% !important;
+}
+
+
+@media (max-width: 700px){
+    .container{
+        width: 80% !important;
+    }
+}
+
+.logincontent{
+    border-bottom: 3px solid white;
+     border-radius: 20px;
+}
+
+.loginup{
+    border: none !important; 
+    background: none !important;
+}
+
+.fa{
+    font-size: 25px !important;
+}
+
+.loginbutton{
+    border: 1px solid white !important;
+    font-size: 15px !important;
+    border-radius: 50px !important;
+    font-family:sans-serif;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+}
